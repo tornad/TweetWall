@@ -75,7 +75,7 @@ state.autoRoll(function(battle) {
 
 
 // Server Setup
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 80;
 
 server.listen(port, function () {
     log.info('Server listening at port ' + port);
